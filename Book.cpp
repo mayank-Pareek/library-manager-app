@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
 #include <iomanip>
@@ -8,12 +7,10 @@ namespace sdds {
     Book::Book() : Publication() {
         setEmpty();
     }
-
     Book::~Book() {
         delete[] authorName;
         authorName = nullptr;
     }
-
     void Book::setEmpty() {
         authorName = nullptr;
     }
@@ -24,7 +21,6 @@ namespace sdds {
         }
         else setEmpty();
     }
-
     Book& Book::operator=(const Book& book) {
 
         Publication::operator=(book);
@@ -38,7 +34,6 @@ namespace sdds {
         }
         return *this;
     }
-
     char Book::type() const {
         return 'B';
     };
