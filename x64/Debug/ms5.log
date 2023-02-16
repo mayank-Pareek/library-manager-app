@@ -1,0 +1,12 @@
+﻿  Book.cpp
+  Date.cpp
+  LibApp.cpp
+  LibAppMain.cpp
+  Menu.cpp
+  Publication.cpp
+  PublicationSelector.cpp
+  pubSel_Tester.cpp
+  Streamable.cpp
+  Utils.cpp
+  Generating Code...
+  ms5.vcxproj -> D:\OOP\OOP-Project\ms5\x64\Debug\ms5.exe
